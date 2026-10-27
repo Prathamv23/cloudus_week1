@@ -12,36 +12,33 @@
     </header>
     <body>
         <div class="main">
-        <form class="form">
-            <h1 class="form title">Add Task</h1>
-            <br>
-            <label class="label">Task Title</label>
-            <input type="text">
-            <br>
-            <label class="label">Description</label>
-            <textarea placeholder="Task Description"></textarea>
-            <br>
-            <label class="label">Priority</label>
-            <select class="radio">
-                <option>High</option>
-                <option>Medium</option>
-                <option>Low</option>
-            </select>
-            <br>
-            <label class="label">Status</label>
-            <br>
-            <div class="status">
-            <input type="radio">
-            <label class="label">Pending</label>
-            <input type="radio">
-            <label class="label">In Progress</label>
-            <input type="radio">
-            <label class="label">Completed</label>
-            </div>
-            <br>
-            <button type="reset" class="reset">Reset</button>
-            <button type="submit" class="submit">Add Task</button>
-        </form>
+          <form class="form">
+            <h1 class="form-title">Add Task</h1>
+                <section class="form-field">
+                <label class="label">Task Title</label>
+                <input type="text">
+                </section>
+                <section class="form-field">
+                <label class="label">Priority</label>
+                <select class="ts-priority">
+                    <option>High</option>
+                    <option>Medium</option>
+                    <option>Low</option>
+                </select>
+                </section>
+                <section class="form-field">
+                <label class="label">Status</label>
+                <select class="ts-radio">
+                    <option>Pending</option>
+                    <option>In Progress</option>
+                    <option>Completed</option>
+                </select>
+                </section>
+                <section class="form-btn">
+                <button type="reset" class="reset">Reset</button>
+                <button type="submit" class="submit">Add Task</button>
+                </section>
+           </form>
         </div>
     </body>
 </html>
