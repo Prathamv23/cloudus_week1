@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header class="head">
+        <nav class="navbar">
+            <a href="index.html">&lt; Back</a>
+        </nav>
+    </header>
+    <body>
+        <div class="main">
+        <form class="form">
+            <h1 class="form title">Add Task</h1>
+            <br>
+            <label class="label">Task Title</label>
+            <input type="text">
+            <br>
+            <label class="label">Description</label>
+            <textarea placeholder="Task Description"></textarea>
+            <br>
+            <label class="label">Priority</label>
+            <select class="radio">
+                <option>High</option>
+                <option>Medium</option>
+                <option>Low</option>
+            </select>
+            <br>
+            <label class="label">Status</label>
+            <br>
+            <div class="status">
+            <input type="radio">
+            <label class="label">Pending</label>
+            <input type="radio">
+            <label class="label">In Progress</label>
+            <input type="radio">
+            <label class="label">Completed</label>
+            </div>
+            <br>
+            <button type="reset" class="reset">Reset</button>
+            <button type="submit" class="submit">Add Task</button>
+        </form>
+        </div>
+    </body>
+</html>
