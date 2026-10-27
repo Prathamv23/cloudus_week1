@@ -1,0 +1,14 @@
+body{
+    background-color: #F5F7FB;
+    color: ;
+}
+.dlt-btn{
+    background-color: rgba(255, 0, 0, 0.575);
+    font-weight: 200;
+    font-size: medium;
+
+}
+.dlt-btn:hover{
+    background-color: red;
+    font-weight: 300;
+}
