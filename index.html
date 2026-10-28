@@ -5,7 +5,8 @@
         <title>Task Board</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <nav class="navbar">
+    <body>
+        <nav class="navbar">
             <img src="cloudus_infotech_logo.png" alt="cloudus_infotech_logo">
                <div class="nav-link">
                 <a href="/home">Home</a>
@@ -14,15 +15,14 @@
                 <a href="/contact">Contact</a>
                 </div>
         </nav>
-    <body>
     <header>
         <h1>Task Board</h1>
     </header>
     <main>
         <section>
-           <a href="form.html"><button class="add-task"> + Add Task</button></a>
+           <a href="form.html" class="add-task">+ Add Task</a>
         </section>
-        <section>
+        <section class="mytask">
             <h2>My Tasks</h2>
             <ul>
                 <li>
@@ -73,12 +73,14 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div>
-                <title>Learn HTML</title>
-                <span>Completed</span>
-                <span>High Priority</span>
-                <title>Description</title>
+        <section >
+            <div class="task-details">
+                <h3>Learn HTML</h3>
+                <div class="span-task">
+                <span class="Completed">Completed</span>
+                <span class="priority">High Priority</span>
+                </div>
+                <h4>Description</h4>
                 <p>Learn about html tags and structure</p>
                 <label>Due Date</label>
                 <p>Friday</p>
